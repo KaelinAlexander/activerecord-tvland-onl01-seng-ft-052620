@@ -7,4 +7,10 @@ class Actor < ActiveRecord::Base
     full
   end
 
+  def list_roles
+    roles = []
+    
+    roles
+  end
+
 end
