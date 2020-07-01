@@ -13,6 +13,7 @@ class Actor < ActiveRecord::Base
         roles << "#{character.name} - #{character.show}"
       end
     roles
+    binding.pry
   end
 
 end
